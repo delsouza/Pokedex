@@ -29,6 +29,7 @@ main {
 .pokedex{
     width: 100%;
     max-width: 1000px;  
+    min-width: 800px;
     border-radius: 3%;
 }
 
@@ -36,8 +37,8 @@ main {
 
 .pokemon_imagem{
     position: absolute;
-    bottom: 25%;
-    left: 18%;
+    bottom: 20%;
+    left: 16%;
     transform: translate(-20%, 0%);
     height: 40%;
 }
@@ -47,7 +48,7 @@ main {
     font-weight: 700;
     color: rgb(0, 0, 0);
     top: 30%;
-    right: 14%;
+    right: 18%;
     font-size: clamp(5px, 4vw, 26px);
 }
 
@@ -61,7 +62,7 @@ main {
     position: absolute;
     width: 20%;
     top: 88.7%;
-    left: 6%;
+    left: 3.7%;
 }
 
 .input_search{
