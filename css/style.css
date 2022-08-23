@@ -28,7 +28,7 @@ main {
 
 .pokedex{
     width: 100%;
-    max-width: 600px;  
+    max-width: 1000px;  
     border-radius: 3%;
 }
 
@@ -36,10 +36,10 @@ main {
 
 .pokemon_imagem{
     position: absolute;
-    bottom: 30%;
+    bottom: 25%;
     left: 18%;
     transform: translate(-20%, 0%);
-    height: 35%;
+    height: 40%;
 }
 
 .pokemon_data{
@@ -47,7 +47,7 @@ main {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.74);
     top: 30%;
-    right: 10%;
+    right: 18%;
     font-size: clamp(5px, 4vw, 26px);
 }
 
@@ -55,14 +55,14 @@ main {
     text-transform: capitalize;
 }
 
+/* Pesquisa de pokémon */
+
 .form{
     position: absolute;
     width: 20%;
-    top: 87.6%;
+    top: 88.7%;
     left: 6%;
 }
-
-/* Botão */
 
 .input_search{
     position: absolute;
@@ -74,13 +74,16 @@ main {
     font-weight: 600;
     color:#3a444d;
     font-size: clamp(1px, 2.3vw, 14px);
+    box-shadow: -2px 2px 0 #888, -5px 6px 0 #333;
 }
+
+/* Botão */
 
 .buttons {
     position: absolute;
-    bottom: 10.5%;
-    left: 48%;
-    width: 65.3%;
+    bottom: 11.5%;
+    left: 48.5%;
+    width: 67.8%;
     transform: translate(-52%, -100%);
     gap: 3px;
     display: flex;
