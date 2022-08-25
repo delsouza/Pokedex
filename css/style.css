@@ -82,9 +82,9 @@ main {
 
 .buttons {
     position: absolute;
-    bottom: 11.5%;
+    bottom: 11.6%;
     left: 48.5%;
-    width: 67.8%;
+    width: 67.5%;
     transform: translate(-52%, -100%);
     gap: 3px;
     display: flex;
