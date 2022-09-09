@@ -1,11 +1,13 @@
 const btnRetroceder = document.querySelector('.prev');
 const btnAvancar = document.querySelector('.next');
 const form = document.querySelector('.form');
+const input = document.querySelector('.input_search');
 let index = 1;
 
 const obterPokemon = async (pokemon) =>
 {
     const pokemonApi = await (await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)).json();
+
     return pokemonApi;
 }
 
@@ -15,11 +17,13 @@ const processarPokemon = async (pokemon) =>
 
     document.querySelector('.pokemon_name').innerHTML = dadosPokemon.name;
     document.querySelector('.pokemon_number').innerHTML = dadosPokemon.id;
-    document.querySelector('.pokemon_imagem').src = dadosPokemon['sprites']['versions']['generation-v']['black-white']['front_default'];
+    document.querySelector('.pokemon_imagem').src = dadosPokemon['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
 }
 
 form.addEventListener('submit', (event) => {
-    //TODO
+    event.preventDefault();
+    processarPokemon(input.value.toLowerCase());
+    input.value = '';
 });
 
 btnRetroceder.addEventListener('click', () => 
