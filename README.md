@@ -1,6 +1,6 @@
 # Pokédex
 
-Uma Pokédex que utiliza HTML, CSS, Javascript e PokéAPI para exibir os pokémons.
+Uma Pokédex que utiliza HTML, CSS, Javascript e PokéAPI.
 
 ## Potenciais melhorias
 
