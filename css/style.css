@@ -13,8 +13,10 @@
 
 body{
     text-align: center;
-    background: linear-gradient(to bottom, #67b4f3 , #fff);
+    background-image: url('../images/img2.png');
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
