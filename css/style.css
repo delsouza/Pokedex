@@ -11,10 +11,15 @@
     font-family: 'Oxanium', 'cursive';
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 body{
     text-align: center;
     background-image: url('../images/img2.png');
-    background-size: 100% 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
