@@ -4,6 +4,8 @@ const form = document.querySelector('.form');
 const input = document.querySelector('.input_search');
 let index = 1;
 
+document.body.style.overflow = 'hidden';
+
 const obterPokemon = async (pokemon) =>
 {
     const pokemonApi = await (await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)).json();
